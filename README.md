@@ -2,6 +2,8 @@
 
 Kortix is the open-source AI Operating System: your agents, their skills, your company memory, and every connector in one git repo you own. You can run the whole system on hardware you control.
 
+Start from the [self-hosting guide](https://claudecoworkalternative.com/self-hosting); the local-model question is answered at [Claude Cowork on local models](https://claudecoworkalternative.com/claude-cowork-local-models), and the docs in this repository carry the detail.
+
 This repo is a self-hosting runbook for Kortix. It answers one question a security review asks first: how does a company run an open-source alternative to Claude Cowork on its own servers, with its own models, keys, and permissions?
 
 Claude Cowork is Anthropic's agent for multi-step knowledge work. It runs on desktop, with web and mobile in beta, and it works in the folders and tools you choose to return finished documents and reports ([Claude Cowork, Anthropic](https://claude.com/product/cowork)). It runs on Anthropic's Claude models, Anthropic publishes no source code for it, and Anthropic documents no self-host. Cowork runs in Anthropic's cloud or in your own Amazon Bedrock, Google Cloud, or Microsoft Foundry account. A closed product with no self-host is the first thing to resolve when the data sits under a compliance rule.
