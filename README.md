@@ -57,7 +57,9 @@ A trigger starts a session on a cron schedule or a signed webhook, with nobody p
 - [Self-hosting Kortix](docs/self-hosting-kortix.md): run the stack on your own server, step by step.
 - [Models and your keys](docs/models-and-your-keys.md): how model choice and credentials work.
 - [Data ownership and permissions](docs/data-ownership-and-permissions.md): where the data sits and who can reach it.
-- [Operating a self-hosted agent team](docs/operating-a-self-hosted-agent-team.md): sessions, triggers, and review.
+- [Operating a self-hosted agent team](docs/operating-a-self-hosted-agent-team.md)
+- [Self-hosting Copilot Cowork](docs/self-hosting-copilot-cowork.md): what Microsoft documents about where Cowork runs, and the four tests a genuinely self-hosted coworker has to pass.
+: sessions, triggers, and review.
 
 ## Start
 
