@@ -66,7 +66,7 @@ Those comment lines answer the first test without argument. A skill is a folder 
 The other three tests follow from the same layout:
 
 - **Model account.** Kortix takes any model provider with your own keys, set per agent, per session or per message. On a self-hosted instance the keys live in the instance's `.env`, so the model bill goes to your provider account.
-- **Sessions.** The control plane is one Docker Compose stack on a Linux server you administer: frontend, API, LLM gateway and database. Sessions do not run on that box. Each one runs on the sandbox provider the install connects, with Daytona as the default and Platinum or E2B as alternatives, and each gets its own cloud computer and branch.
+- **Sessions.** The control plane is one Docker Compose stack on a Linux server you administer: frontend, API, LLM gateway and database. Sessions do not run on that box. Each one runs on the sandbox provider the install connects, with Platinum as the default and Daytona as a legacy fallback, and each gets its own cloud computer and branch.
 - **Approval.** Session work reaches `main` through a change request, and merge is default-deny for agents. A person reads the diff before it lands, and an agent can propose a change to its own configuration without being able to merge it.
 
 Hosting is a choice you make at install. Run it on Kortix Cloud, in your VPC, or on your own on-prem network. Self-host is free. The [self-hosting guide](https://claudecoworkalternative.com/self-hosting) walks the install, and the repository's own [self-hosting runbook](self-hosting-kortix.md) carries the commands.
