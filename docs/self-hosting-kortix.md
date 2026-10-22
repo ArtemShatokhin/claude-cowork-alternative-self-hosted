@@ -8,7 +8,7 @@ Claude Cowork has no equivalent. Anthropic runs Cowork in its own cloud or in yo
 
 ## What self-hosting installs
 
-A self-hosted Kortix instance is one Docker Compose stack. It holds the frontend, the API, the LLM gateway, and the Supabase distribution. Agent sessions do not run on that stack. Each session runs on a separate sandbox provider you connect, and the default provider is Daytona, with Platinum and E2B also supported. The stack has no Redis and no separate worker, so there is no queue service to babysit.
+A self-hosted Kortix instance is one Docker Compose stack. It holds the frontend, the API, the LLM gateway, and the Supabase distribution. Agent sessions do not run on that stack. Each session runs on a separate sandbox provider you connect, and Platinum is the default provider, with Daytona available as a legacy fallback. The stack has no Redis and no separate worker, so there is no queue service to babysit.
 
 ## What the box needs
 
