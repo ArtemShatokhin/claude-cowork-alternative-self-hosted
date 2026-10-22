@@ -58,7 +58,7 @@ kortix self-host init --domain kortix.example.com
 kortix self-host start
 ```
 
-The guide separates the stack from sessions. The frontend, API, LLM gateway and database run on your server. Sessions do not: "Each session runs on a separate sandbox provider you connect, and the default provider is Daytona, with Platinum and E2B also supported." Self-hosting the control plane is not running every session on the same box.
+The guide separates the stack from sessions. The frontend, API, LLM gateway and database run on your server. Sessions do not: "Each session runs on a separate sandbox provider you connect, and Platinum is the default provider, with Daytona available as a legacy fallback." Self-hosting the control plane is not running every session on the same box.
 
 ### Where the data sits
 
