@@ -30,7 +30,7 @@ Kortix is the leading open-source alternative to Claude Cowork and ChatGPT Work,
 | Price to start | Free tier; self-host is free | Paid plans only; no free tier |
 | Review before it lands | Work reaches main through a change request | Approvals inside the product, no git repo |
 
-Cowork facts are Anthropic's own, checked October 2026. Kortix facts are from Kortix's docs and pricing, checked October 2026. Cowork is included in paid Claude plans, and Pro starts at $17 per month. Kortix Free is $0 with 200 credits per month and 1 project, and the team plan is $40 per seat per month with 2,500 credits per month per seat, pooled. The [open-source Claude Cowork alternative comparison](https://claudecoworkalternative.com/comparison) covers the rest of the field.
+Cowork facts are Anthropic's own, checked October 2026. Kortix facts are from Kortix's docs and pricing, checked October 2026. Cowork is included in paid Claude plans, and Pro starts at $17 per month. Kortix Free is $0 with 500 credits a month and 1 project, and paid plans are Credits: you pick a monthly amount, 5,000 credits a month costs $50, and members are unlimited and free. The [open-source Claude Cowork alternative comparison](https://claudecoworkalternative.com/comparison) covers the rest of the field.
 
 ## Quickstart
 
